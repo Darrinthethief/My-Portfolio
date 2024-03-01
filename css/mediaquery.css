@@ -1,0 +1,47 @@
+@media screen and (max-width: 720px) {
+    /* Navigation Menu  */
+    
+    .nav-list {
+        display: none;
+    }
+
+    .contact {
+        display: none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+
+    /* Welcome Section */
+
+    /* About Section */
+
+    .about {
+        display: flex;
+        flex-direction: column;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .about-title {
+        text-align: center;
+    }
+
+    /* Project Section */
+
+    .project-collection {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    /* Skill Section */
+
+}
+
+@media screen and (max-width: 1078px) {
+    .project-collection {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
